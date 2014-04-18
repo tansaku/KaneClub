@@ -1,8 +1,9 @@
 Feature: Adding scores
 	As a primary scorekeeper
-	So I can create a scorecard
-	I want to add a score
+	So I can keep score in the Golf game
+	I want to create score cards and be able to add scores
 
+ # shouldn't create a scorecard scenario go in create_scorecard feature?
 Scenario: create a scorecard
 	When I go to scorecard
 	And I fill "Total Players" with "4"
